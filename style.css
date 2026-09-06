@@ -476,3 +476,31 @@ a
     opacity: 85%;
     font-size: 16px;
 }
+
+@media (max-width: 480px) {
+    .hero__title,
+    .feature__title,
+    .admins__title {
+        font-size: 32px;
+        line-height: 36px !important;
+    }
+
+    .hero__desc,
+    .feature__desc,
+    .admins__desc {
+        font-size: 17px;
+    }
+
+    .header__list {
+        gap: 15px;
+    }
+
+    .header__list-link {
+        font-size: 16px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
