@@ -505,6 +505,7 @@ a
         height: auto !important;
         min-width: 0;
         margin-left: 0;
+        object-fit: contain;
     }
 
     .header__button {
