@@ -534,7 +534,7 @@ a
     .admins__GeneralStaff {
         width: 100% !important;
         max-width: 100% !important;
-        margin: 20px 0 0 0 !important;
+        margin: 20px 10px 0 10px !important;
         height: auto !important;
         order: 1;
     }
