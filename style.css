@@ -532,10 +532,10 @@ a
     .hero__Postdam,
     .feature__Fiume,
     .admins__GeneralStaff {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 20px 0 0 0 !important;
+        width: calc(100% - 40px) !important;
+        max-width: calc(100% - 40px) !important;
         height: auto !important;
+        margin: 20px auto !important;
         order: 1;
     }
 
