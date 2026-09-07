@@ -477,6 +477,149 @@ a
     font-size: 16px;
 }
 
+@media (max-width: 900px) {
+
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .header {
+        padding: 20px 15px;
+    }
+
+    .header__nav {
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+
+    .header__list {
+        gap: 20px;
+        flex-wrap: wrap;
+        order: 3;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header__button {
+        padding: 12px 25px;
+        margin-right: 0;
+    }
+
+    .header__button:hover {
+        padding: 10px 22px;
+        margin-right: 0;
+    }
+
+    /* блоки hero / feature / admins становятся колонками */
+    .hero__container,
+    .feature__container,
+    .admins__container {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        width: auto !important;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    .hero__Postdam,
+    .feature__Fiume,
+    .admins__GeneralStaff {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 20px 0 0 0 !important;
+        height: auto !important;
+        order: 1;
+    }
+
+    .hero__content,
+    .feature__content,
+    .admins__content {
+        width: 100% !important;
+        max-width: 100% !important;
+        order: 2;
+    }
+
+    .hero__text,
+    .feature__text,
+    .admins__text {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        width: auto !important;
+    }
+
+    .hero__title,
+    .feature__title,
+    .admins__title {
+        font-size: 36px !important;
+        line-height: 40px !important;
+    }
+
+    .hero__desc,
+    .feature__desc,
+    .admins__desc {
+        font-size: 18px !important;
+    }
+
+    .hero__buttons,
+    .feature__buttons,
+    .admins__buttons {
+        margin-top: 25px !important;
+        margin-bottom: 20px !important;
+        margin-left: 15px !important;
+        flex-wrap: wrap;
+    }
+
+    .hero__button {
+        font-size: 18px;
+        padding: 10px 25px;
+        margin-left: 0;
+    }
+
+    /* карточки админов в колонку */
+    .mini-admins,
+    .mini-admins__container {
+        flex-direction: column !important;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .mini-admin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mini-admin__image {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    /* футер в колонку */
+    .footer__container {
+        grid-template-columns: 1fr;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+        justify-items: center;
+        padding: 20px 0;
+    }
+
+    .footer__nav {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 15px 0;
+    }
+
+    .footer__image {
+        width: 200px !important;
+        height: auto !important;
+        margin-left: 0;
+    }
+}
+
+
+
 @media (max-width: 480px) {
     .hero__title,
     .feature__title,
